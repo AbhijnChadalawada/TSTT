@@ -19,7 +19,6 @@ class TaintedString extends String {
   }
   sanitize() {
     //TODO: perform sanitizing operations on value
-    console.log(this)
     return this.toString()
   }
 }
@@ -46,7 +45,6 @@ function App() {
   }
 
   function evaluator() {
-    console.log(name);
     if (isTainted(name)) {
       alert("String is tainted, and must be sanitized before evaluating!");
     } else {
@@ -58,7 +56,6 @@ function App() {
     let a = "hello"
     let b = "world"
     let c = a + b;
-    console.log(c)
   }
 
 
