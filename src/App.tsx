@@ -18,7 +18,6 @@ class TaintedString extends String {
     this.tainted = true
   }
   sanitize() {
-    //TODO: perform sanitizing operations on value
     return this.toString()
   }
 }
