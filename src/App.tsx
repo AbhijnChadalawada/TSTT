@@ -44,13 +44,6 @@ function App() {
     }
   }
 
-  function concatenator() {
-    let a = "hello"
-    let b = "world"
-    let c = a + b;
-  }
-
-
   return (
     <div className="App">
       <Box
@@ -72,9 +65,6 @@ function App() {
         </Button>
         <Button variant="contained" onClick={evaluator}>
           Evaluate
-        </Button>
-        <Button variant="contained" onClick={concatenator}>
-          Concatenate
         </Button>
       </Box>
     </div>
