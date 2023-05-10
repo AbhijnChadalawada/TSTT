@@ -4,13 +4,6 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
-// String.prototype.concat = (...strings: string[]) => {
-//   let result = strings[0];
-//   if (length(strings) > 1) {
-    
-//   }
-// }
-
 class TaintedString extends String {
   tainted: boolean;
   constructor(value: string) {
